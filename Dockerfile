@@ -1,10 +1,10 @@
 FROM python:3.7-slim
 
-COPY api_yamdb/ /app
-
 WORKDIR /app
 
-COPY requirements.txt requirements.txt
+COPY api_yamdb/ /app
+
+COPY api_yamdb/requirements.txt requirements.txt
 
 RUN pip3 install -r requirements.txt
 
