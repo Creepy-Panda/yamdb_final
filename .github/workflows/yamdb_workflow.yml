@@ -34,6 +34,8 @@ jobs:
       steps:
         - name: Check out the repo
           uses: actions/checkout@v2 
+          with:
+            
         - name: Set up Docker Buildx
           uses: docker/setup-buildx-action@v1 
         - name: Login to Docker 
@@ -44,6 +46,7 @@ jobs:
         - name: Push to Docker Hub
           uses: docker/build-push-action@v2 
           with:
+            path: api_yamdb
             push: true
             tags: ${{ secrets.DOCKER_USERNAME}}/apiyamdb:latest
 
