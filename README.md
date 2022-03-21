@@ -1,4 +1,4 @@
-![example workflow](https://github.com/github/creepypanda/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg)
+![example workflow](https://github.com/creepypanda/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg)
 
 <div id="top"></div>
 <div align="center">
